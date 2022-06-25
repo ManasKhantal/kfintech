@@ -1,0 +1,46 @@
+body {
+    background: #808080;
+    background: -webkit-linear-gradient(to right, #2b3b42, #172f37, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+}
+
+.main-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+video {
+    height: 50%;
+    width: 50%;
+    border-radius: 10%;
+    background-color: black;
+    margin-left: 30%;
+}
+
+#chat {
+    visibility: hidden;
+}
+
+button {
+    margin-top: 2%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #808080;
+    color: white;
+}
+
+input {
+    margin-top: 2%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(199, 80, 20);
+}
+
+li {
+    font-size: 1.1rem;
+}
